@@ -1,0 +1,32 @@
+{
+	"ts react component": {
+		"scope": "typescriptreact",
+		"prefix": "cc",
+		"body": [
+			"import React from 'react'\n",
+			"import { Flex } from '@chakra-ui/react'\n",
+			"const $1: React.FC<{}> = props => {",
+			"  console.log(props)\n",
+			"  return <Flex></Flex>",
+			"}\n",
+			"export default $1\n"
+		],
+		"description": "Create React Typescript Component"		
+	},
+	"ts react component children": {
+		"scope": "typescriptreact",
+		"prefix": "ccc",
+		"body": [
+			"import React from 'react'\n",
+			"import { Flex } from '@chakra-ui/react'\n",
+			"const $1: React.FC<{",
+			"  children?: React.ReactNode | Array<React.ReactNode>"
+			"}> = props => {",
+			"  const { children } = props\n",
+			"  return <Flex>{children}</Flex>",
+			"}\n",
+			"export default $1\n"
+		],
+		"description": "Create React Typescript Component"		
+	}
+}
